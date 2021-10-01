@@ -54,9 +54,8 @@ try:
     data = """
 
     """
-    cursor.execute(data)
-    show = cursor.fetchall()
-    print(show)
+
+    print(cursor.fetchall())
 
     print('Done')
 except(Exception, Error) as error:
